@@ -1,0 +1,32 @@
+.nav-wrapper {
+  font-size: 1.5em;
+  /* border: solid black 1px; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-wrapper ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  /* border: solid black 1px; */
+}
+
+.nav-wrapper ul li {
+  list-style: none;
+}
+
+.nav-wrapper ul li a {
+  text-decoration: none;
+  color: #c00010;
+}
+
+@media only screen and (max-width: 769px) {
+  .nav-wrapper {
+    display: none;
+  }
+}
