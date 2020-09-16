@@ -135,3 +135,12 @@
     display: none;
   }
 }
+
+/* TEMPORARY */
+.landing-wrapper {
+  height: 120vh;
+}
+
+#learn-btn {
+  margin-bottom: 20vh;
+}
