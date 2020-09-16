@@ -40,7 +40,7 @@ function Home() {
           Learn More
         </a>
       </header>
-      <img src={PageDivide} alt='home page divider' id='page-divider-home' />
+      {/* <img src={PageDivide} alt='home page divider' id='page-divider-home' /> */}
     </div>
   );
 }
