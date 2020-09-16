@@ -1,6 +1,5 @@
 import React from 'react';
 import Background from './../../components/Background/Background';
-import PageDivide from '../../images/page-divider.min.svg';
 import SideNav from './../../components/SideNav/SideNav';
 
 import './style.css';
