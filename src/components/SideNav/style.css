@@ -1,8 +1,6 @@
 .sidenav-wrapper {
-  position: fixed;
   overflow: hidden;
-  z-index: 1;
-  animation: z-index0 2s forwards;
+  z-index: 2;
 }
 
 #logo {
@@ -21,6 +19,7 @@
   transition: 0.5s ease-in-out;
   overflow: hidden;
   background-color: gray;
+  z-index: 1;
 }
 
 .mobile-menu ul {
@@ -44,11 +43,51 @@
   left: 0;
 }
 
-.mobile-wrapper-opened {
-  animation: z-index3 forwards;
+.burger {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  z-index: 4;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@keyframes z-index3 {
+.burger-part {
+  width: 36px;
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 15px;
+  background: #fff;
+  transition: 0.3s ease;
+  align-self: center;
+}
+
+.burger-opened {
+  transform: 0.4s ease;
+}
+
+.burger-part:first-of-type {
+  margin-top: 0;
+}
+
+.burger-opened .burger-part:first-of-type {
+  transform: translateY(12px) rotate(45deg);
+}
+
+.burger-opened .burger-part:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-opened .burger-part:nth-child(3) {
+  transform: translateY(-12px) rotate(-45deg);
+}
+
+/* @keyframes z-index3 {
   from {
     z-index: 0;
   }
@@ -63,7 +102,7 @@
   to {
     z-index: 0;
   }
-}
+} */
 
 @media only screen and (min-width: 769px) {
   .sidenav-wrapper {

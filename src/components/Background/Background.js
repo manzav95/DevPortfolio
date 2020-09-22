@@ -18,9 +18,9 @@ function Background() {
             repeat: 'no-repeat',
             position: '50% 50%',
           },
-          fpsLimit: 60,
+          fpsLimit: 120,
           interactivity: {
-            detectsOn: 'canvas',
+            detectsOn: 'window',
             events: {
               onClick: {
                 enable: true,
@@ -31,7 +31,7 @@ function Background() {
                 mode: 'connect',
                 parallax: {
                   enable: true,
-                  force: 100,
+                  force: 50,
                   smooth: 10,
                 },
               },
@@ -76,29 +76,29 @@ function Background() {
               direction: 'none',
               enable: true,
               outMode: 'bounce',
-              random: false,
+              random: true,
               speed: 1,
-              straight: false,
+              straight: true,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 800,
+                value_area: 900,
               },
-              value: 80,
+              value: 120,
             },
             opacity: {
-              value: 0.5,
+              value: 0.4,
             },
             shape: {
               type: 'circle',
             },
             size: {
-              random: true,
+              random: false,
               value: 5,
             },
           },
-          detectRetina: true,
+          detectRetina: false,
         }}
       />
     </div>

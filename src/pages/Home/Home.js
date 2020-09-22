@@ -22,12 +22,11 @@ function Home() {
       <Background />
 
       <header className='landing-wrapper'>
-        <div className='burger' id='burger' onClick={toggleMobileButton}>
+        {/* <div className='burger' id='burger' onClick={toggleMobileButton}>
           <div className='burger-part'></div>
           <div className='burger-part'></div>
           <div className='burger-part'></div>
-        </div>
-        <SideNav />
+        </div> */}
 
         <section className='intro-wrapper'>
           <h1 className='first-line'>
