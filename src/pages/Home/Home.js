@@ -1,20 +1,7 @@
 import React from 'react';
 import Background from './../../components/Background/Background';
-import SideNav from './../../components/SideNav/SideNav';
 
 import './style.css';
-
-const toggleMobileButton = function () {
-  let burger = document.querySelector('.burger');
-  let mobileMenu = document.querySelector('.mobile-menu');
-  let body = document.querySelector('body');
-  let mobileWrapper = document.querySelector('.sidenav-wrapper');
-
-  burger.classList.toggle('burger-opened');
-  mobileMenu.classList.toggle('mobile-menu-opened');
-  body.classList.toggle('body-no-scroll');
-  mobileWrapper.classList.toggle('mobile-wrapper-opened');
-};
 
 function Home() {
   return (
@@ -22,11 +9,6 @@ function Home() {
       <Background />
 
       <header className='landing-wrapper'>
-        {/* <div className='burger' id='burger' onClick={toggleMobileButton}>
-          <div className='burger-part'></div>
-          <div className='burger-part'></div>
-          <div className='burger-part'></div>
-        </div> */}
 
         <section className='intro-wrapper'>
           <h1 className='first-line'>

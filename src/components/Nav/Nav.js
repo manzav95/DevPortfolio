@@ -20,7 +20,7 @@ function Nav() {
           <a href='#projects'>Projects</a>
         </li>
         <li>
-          <a href='#'>Resume</a>
+          <a href='#resume'>Resume</a>
         </li>
       </ul>
     </nav>
