@@ -1,0 +1,40 @@
+.card-wrapper {
+  max-width: 350px;
+  position: relative;
+  margin: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  padding-top: 7px;
+}
+
+.project-image {
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-wrapper a {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  padding: 5px;
+  color: #ffffff;
+  background-color: rgb(53, 53, 53);
+}
+
+.live-site {
+  left: 0;
+  margin: 18px;
+}
+
+.view-code {
+  right: 0;
+  margin: 18px;
+}

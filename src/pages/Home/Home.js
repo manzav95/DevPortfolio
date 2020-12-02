@@ -1,6 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import {
+  faGithubSquare,
+  faTwitterSquare,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import Background from './../../components/Background/Background';
-
 import './style.css';
 
 function Home() {
@@ -8,8 +13,7 @@ function Home() {
     <div>
       <Background />
 
-      <header className='landing-wrapper'>
-
+      <header className='landing-wrapper diagonal'>
         <section className='intro-wrapper'>
           <h1 className='first-line'>
             Hi, my name is <span id='name'>Manuel Zavala</span>
@@ -19,8 +23,31 @@ function Home() {
         <a id='learn-btn' href='/#about'>
           Learn More
         </a>
+        <section className='social-icons'>
+          <a
+            href='https://github.com/manzav95'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FontAwesomeIcon id='github' icon={faGithubSquare} size='3x' />
+          </a>
+          <a
+        
+            href='https://www.linkedin.com/in/mzavala0402/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FontAwesomeIcon id='linked' icon={faLinkedin} size='3x' />
+          </a>
+          <a
+            href='https://twitter.com/zavalalifestyle'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FontAwesomeIcon id='twitter' icon={faTwitterSquare} size='3x' />
+          </a>
+        </section>
       </header>
-      {/* <img src={PageDivide} alt='home page divider' id='page-divider-home' /> */}
     </div>
   );
 }

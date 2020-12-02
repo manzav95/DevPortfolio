@@ -1,5 +1,4 @@
 .landing-wrapper {
-  /* border: solid black 1px; */
   width: auto;
   height: 100vh;
   display: flex;
@@ -8,7 +7,7 @@
   flex-direction: column;
   text-align: center;
   color: #fff;
-  z-index: -3;
+  /* z-index: 3; */
 }
 
 .intro-wrapper {
@@ -35,7 +34,7 @@
 }
 
 #learn-btn {
-  border: solid black 1px;
+  border: solid #ad0000 1px;
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
@@ -47,7 +46,7 @@
   background-color: #ad0000;
   padding: 0 15px;
   color: #000;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #learn-btn:hover {
@@ -58,6 +57,37 @@
 #page-divider-home {
   width: 100%;
   position: absolute;
+}
+
+.social-icons {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 200px;
+  margin: 30px;
+  z-index: 0;
+  opacity: 0;
+  animation: FadeIn 2s forwards;
+  animation-delay: 4.5s;
+  /* background-color: chartreuse; */
+}
+
+.social-icons svg {
+  /* margin-left: 2%; */
+  color: #fff;
+}
+
+#linked {
+  color: #2867b2;
+}
+
+#twitter {
+  color: #1da1f2;
+}
+
+#github {
+  color: #fff;
 }
 
 @keyframes FadeInBottom {
@@ -135,12 +165,3 @@
     display: none;
   }
 } */
-
-/* TEMPORARY */
-.landing-wrapper {
-  height: 120vh;
-}
-
-#learn-btn {
-  margin-bottom: 20vh;
-}

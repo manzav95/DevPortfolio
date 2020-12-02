@@ -9,8 +9,8 @@
 
 .mobile-menu {
   width: 100%;
-  height: 100vh;
-  background: gray;
+  height: 100%;
+  background: #000;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -18,7 +18,6 @@
   top: 0;
   transition: 0.5s ease-in-out;
   overflow: hidden;
-  background-color: gray;
   z-index: 1;
 }
 
@@ -34,7 +33,7 @@
 }
 .mobile-menu ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ad0000;
   font-size: 2em;
 }
 
@@ -86,23 +85,6 @@
 .burger-opened .burger-part:nth-child(3) {
   transform: translateY(-12px) rotate(-45deg);
 }
-
-/* @keyframes z-index3 {
-  from {
-    z-index: 0;
-  }
-  to {
-    z-index: 3;
-  }
-}
-@keyframes z-index0 {
-  from {
-    z-index: 3;
-  }
-  to {
-    z-index: 0;
-  }
-} */
 
 @media only screen and (min-width: 769px) {
   .sidenav-wrapper {

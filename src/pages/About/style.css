@@ -1,0 +1,28 @@
+.about {
+  background: #af0000;
+  /* position: relative; */
+  /* height: 300px; */
+  width: 100%;
+  color: #fefefe;
+  padding-top: 5%;
+  padding-bottom: 12%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me {
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+.about-header {
+  font-size: 3em;
+  padding-bottom: 20px;
+}

@@ -13,17 +13,17 @@ function Background() {
             color: {
               value: '#000',
             },
-            // width: '100%',
             size: 'cover',
             repeat: 'no-repeat',
             position: '50% 50%',
+            height: '110vh',
           },
           fpsLimit: 120,
           interactivity: {
             detectsOn: 'window',
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: 'push',
               },
               onHover: {
@@ -31,7 +31,7 @@ function Background() {
                 mode: 'connect',
                 parallax: {
                   enable: true,
-                  force: 50,
+                  force: 20,
                   smooth: 10,
                 },
               },
@@ -56,16 +56,18 @@ function Background() {
           particles: {
             color: {
               animation: {
+                //Color changing animation
                 enable: true,
                 speed: 10,
-                sync: true,
+                //Sync all atoms same color
+                sync: false,
               },
               value: '#ff0000',
             },
             links: {
+              enable: true,
               color: '#ffffff',
               distance: 150,
-              enable: true,
               opacity: 0.5,
               width: 1,
             },
@@ -73,19 +75,19 @@ function Background() {
               enable: true,
             },
             move: {
-              direction: 'none',
               enable: true,
+              direction: 'none',
               outMode: 'bounce',
-              random: true,
+              random: false,
               speed: 1,
-              straight: true,
+              straight: false,
             },
             number: {
               density: {
                 enable: true,
-                value_area: 900,
+                value_area: 600,
               },
-              value: 120,
+              value: 140,
             },
             opacity: {
               value: 0.4,
@@ -94,8 +96,8 @@ function Background() {
               type: 'circle',
             },
             size: {
-              random: false,
-              value: 5,
+              random: true,
+              value: 4,
             },
           },
           detectRetina: false,

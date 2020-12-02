@@ -2,10 +2,10 @@ import React from 'react';
 import Nav from './components/Nav/Nav';
 import Home from './pages/Home/Home';
 import SideNav from './components/SideNav/SideNav';
-
-// import Background from './components/Background/Background';
-
 import './App.css';
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+import Skills from './pages/Skills/Skills';
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
       <SideNav />
 
       <Home />
+      <About />
+      <Skills />
+      <Projects />
     </div>
   );
 }
