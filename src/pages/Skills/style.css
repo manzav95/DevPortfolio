@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 .skill-list {
-  width: 60%;
+  width: 80%;
 }
 
 .skill-list ul {
@@ -35,3 +35,9 @@
   align-items: center
 }
 
+
+@media only screen and (min-width: 700px) {
+  .skill-list {
+  width: 60%;
+}
+}

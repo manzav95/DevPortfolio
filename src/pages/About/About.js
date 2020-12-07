@@ -3,8 +3,8 @@ import './style.css';
 
 function About() {
   return (
-    <div className='about'>
-      <div className='about-wrapper' id='about'>
+    <div className='about' id='about'>
+      <div className='about-wrapper'>
         <h2 className='about-header'>About Me</h2>
         <div className='about-me'>
           <p>

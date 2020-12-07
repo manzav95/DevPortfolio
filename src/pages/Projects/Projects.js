@@ -5,7 +5,7 @@ import './style.css';
 function Projects() {
   return (
     <div>
-      <div className='project-wrapper'>
+      <div className='project-wrapper' id='projects'>
         <h2 className='project-header'>Projects</h2>
         <div className='project-container'>
           <ProjectCard
