@@ -13,7 +13,7 @@ function Home() {
     <div>
       <Background />
 
-      <header className='landing-wrapper diagonal'>
+      <header className='landing-wrapper diagonal' id='home'>
         <section className='intro-wrapper'>
           <h1 className='first-line'>
             Hi, my name is <span id='name'>Manuel Zavala</span>
@@ -32,7 +32,6 @@ function Home() {
             <FontAwesomeIcon id='github' icon={faGithubSquare} size='3x' />
           </a>
           <a
-        
             href='https://www.linkedin.com/in/mzavala0402/'
             target='_blank'
             rel='noopener noreferrer'

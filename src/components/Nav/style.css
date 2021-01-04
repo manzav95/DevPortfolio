@@ -4,10 +4,10 @@
   display: flex;
   justify-content: flex-end;
   padding: 1rem 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 1;
-  background-color: #0e0e0e91;
+  background-color: #000000ce;
 }
 
 .nav-wrapper ul {
@@ -19,11 +19,19 @@
 
 .nav-wrapper ul li {
   list-style: none;
+    transition: .5s;
+
+}
+
+.nav-wrapper ul li > .active{
+  border-bottom: 1px solid white;
+    transition: .2s;
+
 }
 
 .nav-wrapper ul li a {
   text-decoration: none;
-  color: #c00010;
+  color: var(--blue);
 }
 
 @media only screen and (max-width: 769px) {

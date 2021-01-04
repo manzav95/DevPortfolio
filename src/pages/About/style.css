@@ -1,9 +1,9 @@
 .about {
-  background: #af0000;
+  background: var(--blue);
   /* position: relative; */
   /* height: 300px; */
   width: 100%;
-  color: #fefefe;
+  color: var(--text);
   padding-top: 5%;
   padding-bottom: 25%;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -28,7 +28,7 @@
 }
 
 @media only screen and (min-width: 700px) {
-  .about{
+  .about {
     padding-bottom: 10%;
   }
 }

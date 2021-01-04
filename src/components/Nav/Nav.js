@@ -1,6 +1,7 @@
 import React from 'react';
 // import SideNav from '../SideNav/SideNav';
 import resume from '../../images/resume.pdf';
+import { Link } from 'react-scroll';
 
 import './style.css';
 
@@ -9,16 +10,52 @@ function Nav() {
     <nav className='nav-wrapper'>
       <ul>
         <li>
-          <a href='/'>Home</a>
+          <Link
+            activeClass='active'
+            to='home'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <Link
+            activeClass='active'
+            to='about'
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <a href='#contact'>Contact</a>
+          <Link
+            activeClass='active'
+            to='projects'
+            spy={true}
+            smooth={true}
+            offset={-350}
+            duration={500}
+          >
+            Projects
+          </Link>
         </li>
         <li>
-          <a href='#projects'>Projects</a>
+          <Link
+            activeClass='active'
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={-700}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
         <li>
           <a

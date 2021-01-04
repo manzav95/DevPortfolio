@@ -6,8 +6,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  color: #fff;
-  /* z-index: 3; */
+  color: var(--text);
 }
 
 .intro-wrapper {
@@ -24,7 +23,7 @@
   opacity: 0;
   animation: FadeInBottom 2s forwards;
   animation-delay: 1s;
-  color: #c80000;
+  color: var(--blue);
 }
 
 .second-line {
@@ -34,7 +33,7 @@
 }
 
 #learn-btn {
-  border: solid #ad0000 1px;
+  border: solid var(--blue) 1px;
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
@@ -43,7 +42,7 @@
   animation: FadeIn 2s forwards;
   animation-delay: 3.5s;
   text-decoration: none;
-  background-color: #ad0000;
+  background-color: var(--blue);
   padding: 0 15px;
   color: #000;
   margin-top: 30px;
@@ -51,7 +50,7 @@
 
 #learn-btn:hover {
   background-color: #000000ca;
-  color: #c80000;
+  color: var(--blue);
 }
 
 #page-divider-home {
@@ -75,7 +74,7 @@
 
 .social-icons svg {
   /* margin-left: 2%; */
-  color: #fff;
+  color: var(--text);
 }
 
 #linked {
@@ -129,7 +128,7 @@
   height: 4px;
   margin-top: 8px;
   border-radius: 15px;
-  background: #fff;
+  background: var(--text);
   /* color: black; */
   transition: 0.3s ease;
   align-self: center;

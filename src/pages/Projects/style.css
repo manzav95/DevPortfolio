@@ -2,11 +2,12 @@
   color: white;
   text-align: center;
   padding: 20px;
-  background: #af0000;
+  background: var(--blue);
 }
 
 .project-header {
   font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .project-container {

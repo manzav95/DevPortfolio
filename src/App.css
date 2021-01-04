@@ -18,3 +18,8 @@ body {
 .body-no-scroll {
   overflow: hidden;
 }
+
+:root {
+  --blue: #000e8b;
+  --text: #fefefe;
+}

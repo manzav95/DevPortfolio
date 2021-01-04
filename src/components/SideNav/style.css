@@ -33,7 +33,7 @@
 }
 .mobile-menu ul li a {
   text-decoration: none;
-  color: #ad0000;
+  color: var(--blue);
   font-size: 2em;
 }
 

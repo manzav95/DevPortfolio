@@ -16,7 +16,7 @@ function Background() {
             size: 'cover',
             repeat: 'no-repeat',
             position: '50% 50%',
-            height: '110vh',
+            height: '100vh',
           },
           fpsLimit: 120,
           interactivity: {
@@ -30,7 +30,7 @@ function Background() {
                 enable: true,
                 mode: 'connect',
                 parallax: {
-                  enable: true,
+                  enable: false,
                   force: 20,
                   smooth: 10,
                 },
@@ -39,10 +39,10 @@ function Background() {
             },
             modes: {
               bubble: {
-                distance: 400,
+                distance: 200,
                 duration: 2,
                 opacity: 0.8,
-                size: 40,
+                size: 250,
               },
               push: {
                 quantity: 4,
@@ -85,7 +85,7 @@ function Background() {
             number: {
               density: {
                 enable: true,
-                value_area: 600,
+                value_area: 900,
               },
               value: 140,
             },

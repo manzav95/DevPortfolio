@@ -1,5 +1,10 @@
 import React from 'react';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import primavera from '../../images/primaverataxx.png';
+import deadline from '../../images/deadline.png';
+import fridgetotable from '../../images/fridgetotable.png';
+import crystalgame from '../../images/crystalgame.png';
+
 import './style.css';
 
 function Projects() {
@@ -9,28 +14,28 @@ function Projects() {
         <h2 className='project-header'>Projects</h2>
         <div className='project-container'>
           <ProjectCard
-            title='Project Title'
-            live='https://www.myspace.com'
-            code='https://www.github.com'
-            image='https://via.placeholder.com/350x250.png/000000/ffffff?text=Project+Picture+Here'
+            // title='Primavera Taxx'
+            live='https://primavera-taxx.netlify.app/'
+            code='https://github.com/manzav95/PrimaveraTaxx'
+            image={primavera}
           />
           <ProjectCard
-            title='Project Title'
-            live='https://www.myspace.com'
-            code='https://www.github.com'
-            image='https://via.placeholder.com/350x250.png/000000/ffffff?text=Project+Picture+Here'
+            // title='Fridge To Table'
+            live=' '
+            code='https://github.com/surigao86/FridgeToTable/tree/master/frontend'
+            image={fridgetotable}
           />
           <ProjectCard
-            title='Project Title'
-            live='https://www.myspace.com'
-            code='https://www.github.com'
-            image='https://via.placeholder.com/350x250.png/000000/ffffff?text=Project+Picture+Here'
+            // title='Deadline'
+            live=' '
+            code='https://github.com/jongomer22/deadline'
+            image={deadline}
           />
           <ProjectCard
-            title='Project Title'
-            live='https://www.myspace.com'
-            code='https://www.github.com'
-            image='https://via.placeholder.com/350x250.png/000000/ffffff?text=Project+Picture+Here'
+            // title='Crystal Game'
+            live='https://manzav95.github.io/Crystal-Collectors-Game/'
+            code='https://github.com/manzav95/Crystal-Collectors-Game'
+            image={crystalgame}
           />
         </div>
       </div>
